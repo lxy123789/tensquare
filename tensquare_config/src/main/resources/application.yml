@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: tensquare-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lxy123789/lxy_ad.git
