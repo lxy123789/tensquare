@@ -8,3 +8,10 @@ spring:
           uri: https://github.com/lxy123789/tensquare.git
 server:
   port: 12000
+rabbitmq:
+  host: 192.168.23.130
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

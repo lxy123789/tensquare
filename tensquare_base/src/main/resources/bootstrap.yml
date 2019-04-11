@@ -5,3 +5,5 @@ spring:
       profile: dev
       label: master
       uri: http://localhost:12000
+rabbitmq:
+  host: 192.168.23.130
