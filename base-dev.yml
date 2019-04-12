@@ -20,3 +20,5 @@ eureka:
     prefer-ip-address: true
 rabiitmq:
   host: 192.168.23.130
+sms:
+  ip: 127.0.0.1
